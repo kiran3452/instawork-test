@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93f4d66-b98f-40ba-bb2f-c653dc80915a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/instawork/pageobjects/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/instawork/genericcomponents/Base_Class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/instawork/genericcomponents/Utility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/instawork/genericcomponents/driver_Utility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/instawork/instagsearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/instawork/genericcomponents/Base_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/instawork/genericcomponents/Base_Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/instawork/instagsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/instawork/instagsearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +19,7 @@
     <session id="-1816536104">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -35,7 +32,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="15" />
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="19" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
@@ -43,8 +40,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2477" />
-          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="JAVA" value="2587" />
+          <entry key="PLAIN_TEXT" value="87" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="9" />
         </counts>
@@ -56,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/instawork/genericcomponents/Base_Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -71,20 +68,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/instawork/instagsearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="481">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/instawork/pageobjects/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,9 +132,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/instawork/genericcomponents/driver_Utility.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/instawork/inxcopy.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/instawork/prod.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/instawork/instagsearch.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/com/instawork/pageobjects/Searchpage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/instawork/genericcomponents/Base_Class.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/instawork/pageobjects/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/instawork/instagsearch.java" />
       </list>
     </option>
   </component>
@@ -152,6 +160,50 @@
               <item name="instawork-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="instawork-test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="instawork-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instawork-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="instawork-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instawork-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="instawork-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instawork-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="instawork-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instawork-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="instawork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="instawork-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instawork-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="instawork" type="462c0819:PsiDirectoryNode" />
+              <item name="genericcomponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="instawork-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instawork-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="instawork" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,7 +215,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567440650906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567535491920" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44942528" />
@@ -299,15 +351,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="inxcopy - 2019.08.27 at 13h 48m 03s.xml">
-      <configuration name="inxcopy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="inxcopy - 2019.08.27 at 13h 53m 05s.xml">
-      <configuration name="inxcopy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="inxcopy - 2019.08.27 at 13h 54m 29s.xml">
-      <configuration name="inxcopy" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="instagsearch - 2019.08.27 at 13h 55m 46s.xml">
       <configuration name="instagsearch" configurationId="TestNG" />
     </history-entry>
@@ -329,6 +372,15 @@
     <history-entry file="instagsearch_gsearchinsta - 2019.08.27 at 22h 42m 07s.xml">
       <configuration name="instagsearch.gsearchinsta" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="instagsearch_gsearchinsta - 2019.09.03 at 23h 02m 01s.xml">
+      <configuration name="instagsearch.gsearchinsta" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="instagsearch_gsearchinsta - 2019.09.03 at 23h 02m 38s.xml">
+      <configuration name="instagsearch.gsearchinsta" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="instagsearch_gsearchinsta - 2019.09.03 at 23h 19m 08s.xml">
+      <configuration name="instagsearch.gsearchinsta" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="0" />
@@ -341,14 +393,14 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3211876" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3211876" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50143063" side_tool="true" weight="0.43493977" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32793522" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4985694" weight="0.55465585" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4985694" weight="0.055421688" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4985694" weight="0.25775978" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4985694" weight="0.45614034" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -489,10 +541,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/instawork/genericcomponents/instagsearch.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/instawork/genericcomponents/Base_Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -503,6 +562,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/instawork/genericcomponents/driver_Utility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -510,24 +576,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/instawork/pageobjects/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/instawork/instagsearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="481">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -38,10 +38,10 @@ public class instagsearch {
             ++count;
         }
 
-        int position = 0;
+        int position;
         for (String key : storemap.keySet()) {
             //    System.out.println("The link : " + key + " is in position : " + storemap.get(key));
-            if (key.equals(expectedWebsite)) {
+             if (key.equals(expectedWebsite)) {
                 position = storemap.get(key);
                 if (position == 1) {
                     System.out.println("The " + expectedWebsite + " is present in " + storemap.get(key) + " position and tops the google search");
